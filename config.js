@@ -1,12 +1,12 @@
 const CONF = {
     port: '5757',
-    rootPathname: '/www/wwwroot/www.wx.chaoswang.cn/',
+    rootPathname: '',
 
     // 微信小程序 App ID
-    appId: 'wx2ad27034a7eb68d4',
+    appId: '',
 
     // 微信小程序 App Secret
-    appSecret: '3453ed92e1f33294aa3bf944a4857bad',
+    appSecret: '',
 
     // 是否使用腾讯云代理登录小程序
     useQcloudLogin: false,
@@ -17,11 +17,11 @@ const CONF = {
      * 开发环境下，MySQL 的初始密码为您的微信小程序 appid
      */
     mysql: {
-        host: '172.16.0.16',
-        port: 3306,
+        host: '',
+        port: ,
         user: 'root',
         db: 'cAuth',
-        pass: 'wxb991115@@',
+        pass: '',
         char: 'utf8mb4'
     },
 
@@ -40,13 +40,13 @@ const CONF = {
     // 微信登录态有效期
     wxLoginExpires: 7200,
   
-  serverHost: 'https://wx.chaoswang.cn',
+  serverHost: '',
     tunnelServerUrl: 'http://tunnel.ws.qcloud.la',
-    tunnelSignatureKey: '27fb7d1c161b7ca52d73cce0f1d833f9f5b5ec89',
+    tunnelSignatureKey: '',
   	// 腾讯云相关配置可以查看云 API 秘钥控制台：https://console.cloud.tencent.com/capi
-    qcloudAppId: '1255465043',
-    qcloudSecretId: 'AKIDQExVtCKp8GF8tHtSFwSnxlcIn7JKrAnG',
-    qcloudSecretKey: 'TlsrfLg1BE9tW8d1a4NrhQ9nMkycCxQs',
+    qcloudAppId: '',
+    qcloudSecretId: '',
+    qcloudSecretKey: '',
     wxMessageToken: 'weixinmsgtoken',
     networkTimeout: 30000
 }
